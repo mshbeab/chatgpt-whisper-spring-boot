@@ -1,4 +1,4 @@
-package com.github.wenqiglantz.service.openaiclient.model.request;
+package com.github.mjc.service.openaiclient.model.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

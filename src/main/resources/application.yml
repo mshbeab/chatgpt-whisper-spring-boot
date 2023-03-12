@@ -4,11 +4,11 @@ server:
     context-path: /
 
 openai-service:
-  api-key: ################
+  api-key: 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
   gpt-model: gpt-3.5-turbo
   audio-model: whisper-1
   http-client:
-    read-timeout: 3000
+    read-timeout: 9000
     connect-timeout: 3000
   urls:
     base-url: https://api.openai.com/v1
@@ -17,7 +17,7 @@ openai-service:
 
 logging:
   level:
-    com.github.wenqiglantz.service.openaiclient: TRACE
+    com.github.mjc.service.openaiclient: TRACE
 
 # Spring
 spring:

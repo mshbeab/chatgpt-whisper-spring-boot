@@ -1,4 +1,4 @@
-package com.github.wenqiglantz.service.openaiclient.openaiclient;
+package com.github.mjc.service.openaiclient.openaiclient;
 
 import feign.Logger;
 import feign.Request;

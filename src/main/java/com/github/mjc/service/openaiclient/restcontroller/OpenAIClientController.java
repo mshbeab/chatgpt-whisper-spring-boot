@@ -1,10 +1,10 @@
-package com.github.wenqiglantz.service.openaiclient.restcontroller;
+package com.github.mjc.service.openaiclient.restcontroller;
 
-import com.github.wenqiglantz.service.openaiclient.model.request.TranscriptionRequest;
-import com.github.wenqiglantz.service.openaiclient.model.response.ChatGPTResponse;
-import com.github.wenqiglantz.service.openaiclient.model.request.ChatRequest;
-import com.github.wenqiglantz.service.openaiclient.model.response.WhisperTranscriptionResponse;
-import com.github.wenqiglantz.service.openaiclient.service.OpenAIClientService;
+import com.github.mjc.service.openaiclient.model.request.TranscriptionRequest;
+import com.github.mjc.service.openaiclient.model.response.ChatGPTResponse;
+import com.github.mjc.service.openaiclient.model.request.ChatRequest;
+import com.github.mjc.service.openaiclient.model.response.WhisperTranscriptionResponse;
+import com.github.mjc.service.openaiclient.service.OpenAIClientService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.ModelAttribute;

@@ -1,9 +1,9 @@
-package com.github.wenqiglantz.service.openaiclient.openaiclient;
+package com.github.mjc.service.openaiclient.openaiclient;
 
-import com.github.wenqiglantz.service.openaiclient.model.request.ChatGPTRequest;
-import com.github.wenqiglantz.service.openaiclient.model.request.WhisperTranscriptionRequest;
-import com.github.wenqiglantz.service.openaiclient.model.response.ChatGPTResponse;
-import com.github.wenqiglantz.service.openaiclient.model.response.WhisperTranscriptionResponse;
+import com.github.mjc.service.openaiclient.model.request.ChatGPTRequest;
+import com.github.mjc.service.openaiclient.model.request.WhisperTranscriptionRequest;
+import com.github.mjc.service.openaiclient.model.response.ChatGPTResponse;
+import com.github.mjc.service.openaiclient.model.response.WhisperTranscriptionResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,4 +1,4 @@
-package com.github.wenqiglantz.service.openaiclient.model.response;
+package com.github.mjc.service.openaiclient.model.response;
 
 import lombok.Data;
 

@@ -1,14 +1,14 @@
-package com.github.wenqiglantz.service.openaiclient.service;
+package com.github.mjc.service.openaiclient.service;
 
-import com.github.wenqiglantz.service.openaiclient.openaiclient.OpenAIClient;
-import com.github.wenqiglantz.service.openaiclient.openaiclient.OpenAIClientConfig;
-import com.github.wenqiglantz.service.openaiclient.model.request.ChatGPTRequest;
-import com.github.wenqiglantz.service.openaiclient.model.request.WhisperTranscriptionRequest;
-import com.github.wenqiglantz.service.openaiclient.model.request.TranscriptionRequest;
-import com.github.wenqiglantz.service.openaiclient.model.response.ChatGPTResponse;
-import com.github.wenqiglantz.service.openaiclient.model.request.ChatRequest;
-import com.github.wenqiglantz.service.openaiclient.model.request.Message;
-import com.github.wenqiglantz.service.openaiclient.model.response.WhisperTranscriptionResponse;
+import com.github.mjc.service.openaiclient.openaiclient.OpenAIClient;
+import com.github.mjc.service.openaiclient.openaiclient.OpenAIClientConfig;
+import com.github.mjc.service.openaiclient.model.request.ChatGPTRequest;
+import com.github.mjc.service.openaiclient.model.request.WhisperTranscriptionRequest;
+import com.github.mjc.service.openaiclient.model.request.TranscriptionRequest;
+import com.github.mjc.service.openaiclient.model.response.ChatGPTResponse;
+import com.github.mjc.service.openaiclient.model.request.ChatRequest;
+import com.github.mjc.service.openaiclient.model.request.Message;
+import com.github.mjc.service.openaiclient.model.response.WhisperTranscriptionResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

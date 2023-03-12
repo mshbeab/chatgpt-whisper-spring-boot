@@ -1,4 +1,4 @@
-package com.github.wenqiglantz.service.openaiclient;
+package com.github.mjc.service.openaiclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

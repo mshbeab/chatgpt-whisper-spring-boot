@@ -1,7 +1,7 @@
-package com.github.wenqiglantz.service.openaiclient.model.response;
+package com.github.mjc.service.openaiclient.model.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.github.wenqiglantz.service.openaiclient.model.request.Message;
+import com.github.mjc.service.openaiclient.model.request.Message;
 import lombok.Data;
 
 import java.io.Serializable;
